@@ -1,6 +1,6 @@
 how to run code :
-install any ruby version
-ruby roman_checker_solved.rb
+- install any ruby version
+- ruby roman_checker_solved.rb
 
 notes :
 - I used ruby because I mastered ruby
