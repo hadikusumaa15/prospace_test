@@ -15,9 +15,11 @@ how much wood could a woodchuck chuck if a woodchuck could chuck wood ?"
 saved_input = {}
 error = false
 inputs_arr = inputs.split("\n")
+p "INPUTS : "
 inputs_arr.each do |input|
     p input
 end
+puts ""
 
 
 def roman_checker(roman_numbers)
@@ -311,6 +313,7 @@ def check_how_many_question(input_split, saved_input)
     end        
 end
 
+p "ANSWERS : "
 inputs_arr.each do |input|
     input_split = input.split(" is ")
     if input_split.length == 2
